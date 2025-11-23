@@ -4,7 +4,7 @@ import com.miniscale.order.client.UserClient;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/orders")
+@RequestMapping("/v2/orders")
 public class OrderController {
 
     private final UserClient userClient;
