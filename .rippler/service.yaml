@@ -1,0 +1,3 @@
+service: order-service
+dependencies:
+  - user-service
